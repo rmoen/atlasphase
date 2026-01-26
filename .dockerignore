@@ -3,5 +3,4 @@ node_modules
 .DS_Store
 .dockerignore
 Dockerfile
-nginx.conf
 .git
