@@ -14,7 +14,25 @@ npm run build
 npm run preview
 ```
 
-## Deploy
-Push to GitHub and deploy on Vercel/Netlify.
-- Build: `npm run build`
-- Output: `dist`
+## Docker
+
+Build a Docker image for nginx deployment:
+
+```bash
+docker build -t rmoen/atlasphase .
+```
+
+Run the container (port 80):
+
+```bash
+docker run -p 80:80 rmoen/atlasphase
+```
+
+## Automated Deploy Script
+
+Use the provided `deploy.sh` to commit, push, and deploy to the mint server in one step:
+
+```bash
+# from the atlasphase project folder
+deploy.sh "Your commit message"
+```
