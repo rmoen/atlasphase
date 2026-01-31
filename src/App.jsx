@@ -190,7 +190,7 @@ export default function App() {
             <div>
               <div className="font-semibold">Atlas Phase</div>
               <div className="text-sm text-slate-500">Oregon City, OR</div>
-              <div className="mt-4 text-sm">Phone: (503) 308-1036</div>
+              <div className="mt-4 text-sm">Phone: (503) 994-1972</div>
               <div className="text-sm">Email: info@atlasphase.com</div>
             </div>
             <div className="text-sm text-slate-500">© {new Date().getFullYear()} Atlas Phase — Built with care.</div>
